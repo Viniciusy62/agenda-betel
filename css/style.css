@@ -14,39 +14,46 @@ body{
 .title{
     margin: 20px auto;
     text-align: center;
+    font-size: 1.2em;
     color: #FF7315;
 }
-
+.events{
+    margin: 2px auto;
+    width: 200px;
+}
 .months{
-    margin: 50px;
+    margin: 25px;
     list-style: none;
-    border: 1px solid red;
-    float: left;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
 }
 
 .months li{
+    margin: 2px;
+    padding: 3px;
     position: relative;
-    float: left;
-    border-right: 1px solid black;
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    background-color: #082032;
 }
 
 .months li a{
-    color: orange;
+    color: #FF7315;
     text-decoration: none;
     padding: 5px 10px;
-    display: block;
 }
 
 .months li:hover{
-    background: red;
-    color: blueviolet;
+    background: #2C394B;
+    color: #FFD5CD;
 }
 
 .months ul{
     position: absolute;
-    top: 35px;
-    left: 0;
-    background-color: blanchedalmond;
+    top: 0px;
+    left: 150px;
     display: none;
 }
 
@@ -55,7 +62,9 @@ body{
 }
 
 .months li ul li{
-    padding: 5px;
+    text-align: center;
+    padding: 5px 0;
     display: block;
     width: 250px;
 }
+
