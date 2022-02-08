@@ -25,7 +25,6 @@ body{
     margin: 25px;
     list-style: none;
     display: flex;
-    justify-content: space-between;
     flex-direction: column;
 }
 
@@ -123,5 +122,22 @@ body{
     body {
         margin: auto;
         max-width: 1200px;
+    }
+    .months li ul li{
+        max-width: 250px;
+        padding: 10px;
+    }
+}
+
+@media only screen and (max-width: 800px){
+    .months li ul li{
+        max-width: 150px;
+        padding: 10px;
+    }
+}
+
+@media only screen and (max-width: 540px){
+    .months li ul li{
+        max-width: 100px;
     }
 }
