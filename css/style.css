@@ -84,7 +84,7 @@ body{
 
 .content{
     margin: 10px 20px;
-    text-align: justify;
+    text-align: center;
 
 }
 
@@ -93,6 +93,7 @@ body{
     font-size: 1.2em;
     color: #082032;
     letter-spacing: 2px;
+    text-align: center;
 }
 
 .content p{
@@ -109,11 +110,18 @@ body{
 }
 
 .footer-message p{
-    margin: 10px 0;
+    margin: 20px 0;
     text-align: justify;
     font-size: 1em;
 }
 
 .footer-message h5{
     font-size: 1em;
+}
+
+@media only screen and (min-width: 1200px) {
+    body {
+        margin: auto;
+        max-width: 1200px;
+    }
 }
