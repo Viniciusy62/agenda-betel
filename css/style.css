@@ -30,13 +30,15 @@ body{
 }
 
 .months li{
-    margin: 2px;
+    margin: 5px 0;
     padding: 3px;
     position: relative;
     display: flex;
     justify-content: center;
     border-radius: 20px;
     background-color: #082032;
+    -webkit-box-shadow: 1px 1px 5px 1px #000000; 
+    box-shadow: 1px 1px 5px 1px #000000;
 }
 
 .months li a{
@@ -53,7 +55,7 @@ body{
 .months ul{
     position: absolute;
     top: 0px;
-    left: 150px;
+    left: 155px;
     display: none;
 }
 
@@ -68,3 +70,50 @@ body{
     width: 250px;
 }
 
+.container{
+    margin: 20px 10px;
+    width: 100%;
+    display: contents;
+}
+
+.container-title{
+    text-align: center;
+    font-size: 1.5em;
+    color: #FF7315;
+}
+
+.content{
+    margin: 10px 20px;
+    text-align: justify;
+
+}
+
+.content h4{
+    margin: 5px 0;
+    font-size: 1.2em;
+    color: #082032;
+    letter-spacing: 2px;
+}
+
+.content p{
+    margin-bottom: 20px;
+    font-size: 1em;
+    color: #082032;
+}
+
+.footer-message{
+    margin: 30px 20px;
+    font-size: 1em;
+    color: #082032;
+
+}
+
+.footer-message p{
+    margin: 10px 0;
+    text-align: justify;
+    font-size: 1em;
+}
+
+.footer-message h5{
+    font-size: 1em;
+}
