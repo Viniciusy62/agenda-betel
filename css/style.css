@@ -12,20 +12,28 @@ body{
 }
 
 .title{
-    margin: 20px auto;
+    margin: 10px auto;
     text-align: center;
     font-size: 1.2em;
     color: #FF7315;
 }
 .events{
     margin: 2px auto;
-    width: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
+.events{
+    background-image: url(images\logo-cruz-betel.png);
+}
+
+
 .months{
-    margin: 25px;
+    margin: 10px 0;
     list-style: none;
     display: flex;
     flex-direction: column;
+    width: 120px;
 }
 
 .months li{
@@ -51,10 +59,10 @@ body{
     color: #FFD5CD;
 }
 
-.months ul{
+.months li ul{
     position: absolute;
-    top: 0px;
-    left: 155px;
+    top: auto;
+    left: 125px;
     display: none;
 }
 
