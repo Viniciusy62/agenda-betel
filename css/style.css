@@ -18,10 +18,16 @@ body{
     color: #FF7315;
 }
 
+.title img{
+    width: 20%;
+    max-width: 150px;
+}
+
 .icon-container{
     margin: 25px 0;
     display: flex;
     justify-content: center;
+    
 }
 
 .icon-1{
@@ -53,19 +59,28 @@ body{
 .icon-2 a{
     text-decoration: none;
     
+    
 }
-
+/*
 .calendar{
     margin: 20px 15px;
+    display: none;
   
-}
+}*/
 
 .calendar details{
     margin: 15px 0;
     
+    
 }
 
 .calendar summary{
+    width: 200px;
+    padding: 5px;
+    border: 2px solid red;
+    border-radius: 5px;
+    background-color: #082032;
+    color: #FF7315;
     font-size: 1em;
     font-weight: bold;
     cursor: pointer;
@@ -73,6 +88,7 @@ body{
 
 .calendar p{
     font-size: 1em;
+
 }
 
 
