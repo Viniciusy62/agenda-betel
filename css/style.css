@@ -11,13 +11,9 @@ body{
 
 .title{
     margin: 20px auto;
-    padding: 20px;
     width: 80%;
     text-align: center;
     font-size: 1.2em;
-    /*background-color: #000;
-    border: 2px solid red;*/
-    border-radius: 40px;
     color: #FF7315;
 }
 
@@ -33,67 +29,34 @@ body{
 }
 
 .icon-container{
-    margin: 25px 0;
-    display: flex;
-    justify-content: center;
-    
-}
-
-.icon-back{
-    width: 150px;
-    height: 150px;
-    background-color: #082032;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    -webkit-box-shadow: 0px 0px 50px 10px #FF7315; 
-    box-shadow: 0px 0px 50px 10px #FF7315;
-}
-
-.icon-front{
-    width: 125px;
-    height: 125px;
-    background-color: #FF7315;
-    border-radius: 50%;
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 1em;
-    font-weight: bold;
-    /*cursor: pointer;*/
-}
-
-.icon-front a{
-    text-decoration: none;
     text-align: center;
-    
+}
+
+.icon-container img{
+    width: 20%;
+    cursor: pointer;
+}
+
+.calendar{
+    margin: 0 auto;
+    width: 80%;
+    min-width: 340px;
+
     
 }
-/*
-.calendar{
-    margin: 20px 15px;
-    display: none;
-  
-}*/
 
 .calendar details{
-    margin: 15px 0;
-    
-    
+    margin: 0 auto;
+
 }
 
 .calendar summary{
-    width: 200px;
-    padding: 5px;
-    border: 2px solid red;
-    border-radius: 5px;
-    background-color: #082032;
+    margin-top: 10px;
     color: #FF7315;
     font-size: 1em;
     font-weight: bold;
     cursor: pointer;
+
 }
 
 .calendar p{
@@ -101,7 +64,9 @@ body{
 
 }
 
-
+.calendar li{
+    margin: 5px;
+}
 
 
 
