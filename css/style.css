@@ -39,28 +39,28 @@ body{
 
 .calendar{
     margin: 0 auto;
-    width: 80%;
-    min-width: 340px;
+    width: 100%;
 
-    
+}
+
+.contain{
+    margin: 20px auto;
+    min-width: 375px;
+    max-width: 600px;
 }
 
 .calendar details{
-    margin: 0 auto;
+    margin-left: 20px;
 
 }
 
 .calendar summary{
     margin-top: 10px;
+    letter-spacing: 2px;
     color: #FF7315;
     font-size: 1em;
     font-weight: bold;
     cursor: pointer;
-
-}
-
-.calendar p{
-    font-size: 1em;
 
 }
 
@@ -80,7 +80,8 @@ body{
 .container{
     margin: 20px 10px;
     width: 100%;
-    display: contents;
+    /*display: contents;*/
+    display: none;
 }
 
 .container-title{
@@ -89,13 +90,13 @@ body{
     color: #FF7315;
 }
 
-.content{
+.news{
     margin: 10px 20px;
     text-align: center;
-
+    
 }
 
-.content h4{
+.news h4{
     margin: 5px 0;
     font-size: 1.2em;
     color: #082032;
@@ -103,7 +104,7 @@ body{
     text-align: center;
 }
 
-.content p{
+.news p{
     margin-bottom: 20px;
     font-size: 1em;
     color: #082032;
