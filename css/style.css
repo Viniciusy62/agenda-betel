@@ -39,7 +39,7 @@ body{
 
 .icon-container img{
     width: 20%;
-    cursor: pointer;
+  /*  cursor: pointer;  */
 }
 
 .calendar{
